@@ -47,7 +47,6 @@ Oleh karena itu, diperlukan sebuah sistem informasi berbasis web yang dapat memb
 * Mengimplementasikan CRUD pada data buku.
 * Membuat sistem autentikasi sederhana menggunakan session.
 * Mendesain tampilan yang menarik dengan Bootstrap.
-* Memenuhi tugas/UAS mata kuliah Pemrograman Web.
 
 
 ---
