@@ -20,11 +20,6 @@
 
 **"Aplikasi Pengelolaan Data Buku dan Anggota Perpustakaan Berbasis Web Menggunakan Laravel"**
 
-![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge\&logo=laravel\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge\&logo=php\&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge\&logo=bootstrap\&logoColor=white)
-![XAMPP](https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge\&logo=xampp\&logoColor=white)
-
 ---
 
 <img width="1349" height="658" alt="Image" src="https://github.com/user-attachments/assets/cf0e3508-37d4-4f20-9835-70daceb60af2" />
