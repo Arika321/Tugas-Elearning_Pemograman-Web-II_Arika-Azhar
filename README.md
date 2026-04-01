@@ -9,50 +9,162 @@
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+###  Profil Mahasiswa
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* **Nama** : Arika Azhar
+* **NIM** : 23552011408
+* **Program Studi** : Teknik Informatika
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+##  Sistem Informasi Perpustakaan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**"Aplikasi Pengelolaan Data Buku dan Anggota Perpustakaan Berbasis Web Menggunakan Laravel"**
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge\&logo=laravel\&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge\&logo=php\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge\&logo=xampp\&logoColor=white)
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+##  Latar Belakang
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Perpustakaan merupakan salah satu sarana penting dalam menunjang kegiatan belajar dan menambah wawasan.
+Namun, pengelolaan data buku dan anggota secara manual seringkali menimbulkan berbagai permasalahan seperti pencatatan yang tidak rapi, kesulitan dalam pencarian data, dan risiko kehilangan data.
 
-```bash
-composer require laravel/boost --dev
+Oleh karena itu, diperlukan sebuah sistem informasi berbasis web yang dapat membantu dalam pengelolaan data perpustakaan secara lebih efektif dan efisien.
 
-php artisan boost:install
+---
+
+##  Rumusan Masalah
+
+1. Bagaimana cara mengelola data buku secara digital?
+2. Bagaimana membuat sistem login sederhana untuk admin?
+3. Bagaimana menampilkan data anggota secara terstruktur?
+4. Bagaimana membuat tampilan aplikasi yang menarik dan user-friendly?
+
+---
+
+## Tujuan
+
+* Membangun aplikasi sistem informasi perpustakaan berbasis web.
+* Mengimplementasikan CRUD pada data buku.
+* Membuat sistem autentikasi sederhana menggunakan session.
+* Mendesain tampilan yang menarik dengan Bootstrap.
+* Memenuhi tugas/UAS mata kuliah Pemrograman Web.
+
+
+---
+
+##  Fitur Aplikasi
+
+*  **Login Admin**
+  Sistem login menggunakan session (username & password)
+
+*  **CRUD Data Buku**
+
+  * Menambah data buku
+  * Menghapus data buku
+  * Edit sederhana
+
+*  **Data Anggota**
+  Menampilkan daftar anggota perpustakaan
+
+*  **Dashboard Admin**
+  Halaman utama admin untuk navigasi sistem
+
+*  **Landing Page Modern**
+
+  * Banner
+  * Card menu
+  * Animasi hover
+
+*  **Buku Terbaru**
+  Menampilkan daftar buku dengan gambar
+
+---
+
+##  Tampilan Sistem
+
+Aplikasi terdiri dari beberapa halaman utama:
+
+###  Home
+
+* Banner ajakan membaca
+* Menu fitur (Buku, Anggota, Admin, Peminjaman)
+* Daftar buku terbaru
+
+###  Login
+
+* Autentikasi admin sederhana
+
+### Dashboard Admin
+
+* Navigasi ke data buku dan anggota
+* Preview data buku
+
+###  Data Buku
+
+* Menampilkan daftar buku
+* Tambah dan hapus data
+
+###  Data Anggota
+
+* Menampilkan daftar anggota
+
+---
+
+##  Teknologi yang Digunakan
+
+| Komponen  | Teknologi                |
+| --------- | ------------------------ |
+| Framework | Laravel 13               |
+| Bahasa    | PHP 8                    |
+| Frontend  | HTML, CSS, Bootstrap     |
+| Database  | Session (tanpa database) |
+| Server    | XAMPP / Laragon          |
+| Editor    | Visual Studio Code       |
+
+---
+
+##  Cara Menjalankan Aplikasi
+
+1. Clone repository
+
+```bash id="u1k3f9"
+git clone https://github.com/username/perpustakaan.git
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+2. Masuk ke folder project
 
-## Contributing
+```bash id="m8d2s6"
+cd perpustakaan
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. Jalankan server Laravel
 
-## Code of Conduct
+```bash id="n4c7p2"
+php artisan serve
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. Buka browser
 
-## Security Vulnerabilities
+```bash id="v9b5e1"
+http://127.0.0.1:8000
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+##  Kesimpulan
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Aplikasi Sistem Informasi Perpustakaan ini dapat membantu dalam pengelolaan data buku dan anggota secara lebih efektif dibandingkan dengan cara manual.
+
+Dengan menggunakan Laravel, aplikasi ini dapat dikembangkan lebih lanjut menjadi sistem yang lebih kompleks dengan database dan fitur tambahan lainnya.
+
+---
+
+
+
+---
+
