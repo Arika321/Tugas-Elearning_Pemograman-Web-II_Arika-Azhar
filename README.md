@@ -7,7 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
 ###  Profil Mahasiswa
 
@@ -28,21 +27,17 @@
 
 ---
 
+<img width="1349" height="658" alt="Image" src="https://github.com/user-attachments/assets/cf0e3508-37d4-4f20-9835-70daceb60af2" />
+---
+
+<img width="1347" height="678" alt="Image" src="https://github.com/user-attachments/assets/53e236e5-6928-4640-afea-1b3181475fd7" />
+
 ##  Latar Belakang
 
 Perpustakaan merupakan salah satu sarana penting dalam menunjang kegiatan belajar dan menambah wawasan.
 Namun, pengelolaan data buku dan anggota secara manual seringkali menimbulkan berbagai permasalahan seperti pencatatan yang tidak rapi, kesulitan dalam pencarian data, dan risiko kehilangan data.
 
 Oleh karena itu, diperlukan sebuah sistem informasi berbasis web yang dapat membantu dalam pengelolaan data perpustakaan secara lebih efektif dan efisien.
-
----
-
-##  Rumusan Masalah
-
-1. Bagaimana cara mengelola data buku secara digital?
-2. Bagaimana membuat sistem login sederhana untuk admin?
-3. Bagaimana menampilkan data anggota secara terstruktur?
-4. Bagaimana membuat tampilan aplikasi yang menarik dan user-friendly?
 
 ---
 
